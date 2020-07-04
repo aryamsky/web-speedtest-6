@@ -6,8 +6,15 @@
  * - name إن لم تستقبل اسم أو "Hello" تطبع
  * - name إن استقبلت اسم أو "Hello <name>" تطبع
  */
-
-function greet(name) {}
+  greet();
+  let name=("Aryam");
+function greet(name) {
+    if(name==name){
+     console.log("hello " + name);
+    }else{
+        console.log("hello");
+    }
+}
 
 /*
  * isOdd(n) اسم الدالة
